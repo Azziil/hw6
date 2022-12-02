@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-text {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.separator {
+    width: 170px;
+    height: 1px;
+    margin: 0px auto; 
+    
+}
+.separator--red-color {
+    background-color: #EC7979;
+}
+.second-text {
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.customers_1 {
+    width: 370px;
+    height: 336px;
+}
+.customers_1--text {
+    height: 180px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.davis-img{
+    width: 70px;
+    height: 70px;
+    }
+.info {
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px 0;
+}
+.davis-name {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 5px 0 ;
+}
+.info-text {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
