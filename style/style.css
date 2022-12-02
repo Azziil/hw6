@@ -72,6 +72,14 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    position: relative;
+}
+.customers_1--text::after {
+    content: ''; 
+    position: absolute;
+    right: -30px; bottom: 15px;
+    border: 10px solid transparent;
+    border-top: 20px solid green;
 }
 .davis-img {
     width: 70px;
