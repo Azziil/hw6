@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0 15px;
 }
 .main-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -48,49 +53,53 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #EC7979;
 }
 .second-text {
-    height: 21px;
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+        font-size: 18px;
+    line-height: 21px;
+    padding: 40px 0 80px;
+    color: rgba(134, 135, 139, 1)
 }
-.customers_1 {
-    width: 370px;
-    height: 336px;
-}
-.customers_1--text {
+.customers {
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+.text {
     height: 180px;
     width: 370px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    border: 1px solid black;
     border-radius: 10px;
+    background: rgba(226, 226, 226, 1);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     position: relative;
+    
 }
-.customers_1--text::after {
+.text::after {
     content: ''; 
     position: absolute;
-    right: -30px; bottom: 15px;
-    border: 10px solid transparent;
-    border-top: 20px solid green;
+    left: 50px; top: 179px;
+    border: 20px solid transparent;
+    border-top: 30px solid rgba(226, 226, 226, 1);
 }
-.davis-img {
-    width: 70px;
-    height: 70px;
-    }
+
 .info {
     display: flex;
     justify-content: flex-start;
     padding: 60px 0;
 }
-.davis-name {
+.name {
     font-family: Open Sans;
     font-size: 24px;
     font-weight: 700;
